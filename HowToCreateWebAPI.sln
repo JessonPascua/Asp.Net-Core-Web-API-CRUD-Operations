@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowToCreateWebAPI", "HowToCreateWebAPI\HowToCreateWebAPI.csproj", "{A2E35DD5-9555-49B8-8428-05B8B716BB5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HowToCreateWebAPI", "HowToCreateWebAPI\HowToCreateWebAPI.csproj", "{A2E35DD5-9555-49B8-8428-05B8B716BB5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HowToCreateWebAPIwithMultiControllers", "HowToCreateWebAPIwithMultiControllers\HowToCreateWebAPIwithMultiControllers.csproj", "{9A45DE35-50C2-4F05-B546-6354F3032735}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A2E35DD5-9555-49B8-8428-05B8B716BB5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2E35DD5-9555-49B8-8428-05B8B716BB5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2E35DD5-9555-49B8-8428-05B8B716BB5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A45DE35-50C2-4F05-B546-6354F3032735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A45DE35-50C2-4F05-B546-6354F3032735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A45DE35-50C2-4F05-B546-6354F3032735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A45DE35-50C2-4F05-B546-6354F3032735}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

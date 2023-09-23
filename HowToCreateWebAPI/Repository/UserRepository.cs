@@ -9,6 +9,7 @@ namespace HowToCreateWebAPI.Repository
     public class UserRepository : IUserRepository
     {
         private readonly FakeDbContext _fakeDbContext = new FakeDbContext();
+
         public void Add(UserViewModel user)
         {
             user.Id = _fakeDbContext.Users.Count + 1;
